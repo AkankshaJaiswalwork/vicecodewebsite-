@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover the heart of Creative Group, Chhatrapati Sambhajinagar's leading event curators since 1997. View our media coverage and full gallery.">
+    <title>About Us & Media | Creative Group</title>
+    <link rel="canonical" href="https://creativegroup.example.com/about.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .service-hero {
+            padding: 10rem 0 6rem;
+            background: linear-gradient(rgba(20, 10, 5, 0.7), rgba(20, 10, 5, 0.9)), url('https://images.unsplash.com/photo-1507561845580-bcca9bc9f58c?auto=format&fit=crop&w=1920&q=80') center/cover fixed;
+            color: #FFF;
+            text-align: center;
+        }
+
+        .service-hero-title {
+            font-size: clamp(3rem, 6vw, 4.5rem);
+            margin-bottom: 1rem;
+            color: #F7E7CE;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Creative<span class="highlight">Group</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="dropbtn">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content glass-panel">
+                        <a href="summer-camp.html" class="dropdown-card">
+                            <i class="fas fa-campground"></i>
+                            <div>
+                                <h4>Summer Camp</h4>
+                                <p>Kids flagship program</p>
+                            </div>
+                        </a>
+                        <a href="pageants.html" class="dropdown-card">
+                            <i class="fas fa-crown"></i>
+                            <div>
+                                <h4>Pageants</h4>
+                                <p>Glamour & confidence</p>
+                            </div>
+                        </a>
+                        <a href="mall-decor.html" class="dropdown-card">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <h4>Mall Décor</h4>
+                                <p>Corporate & retail</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><button data-tally-open="zxzKWE" data-tally-layout="modal" data-tally-overlay="1"
+                        data-tally-width="600" class="btn btn-primary nav-cta"
+                        style="cursor:pointer; border:none; font-family:inherit;">Register Now</button></li>
+            </ul>
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="service-hero">
+        <div class="container scroll-animate slide-in-bottom">
+            <h1 class="service-hero-title">Our <span class="highlight">Story</span></h1>
+            <p class="hero-subtitle" style="font-size:1.4rem; color:#f4c430;">Crafting Experiences in Chhatrapati
+                Sambhajinagar since 1997.</p>
+        </div>
+    </header>
+
+    <!-- Simple About Vision -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="flex-row" style="align-items: center; gap: 4rem;">
+                <div class="content-col scroll-animate slide-in-left">
+                    <div class="tag">Established 1997</div>
+                    <h2 class="section-title">The Heart of <span class="highlight">Creative Group</span></h2>
+                    <p class="section-text" style="font-size: 1.15rem;">Founded by Ravi Jaiswal, Creative Group has been
+                        the cornerstone of event excellence for over 27 years. We believe in creating moments that
+                        linger in memory—whether it's the joy of a child's first summer camp or the grandeur of a
+                        festive mall transformation.</p>
+                    <p class="section-text" style="font-size: 1.15rem;">Our journey is defined by the smiles of
+                        thousands of children, the confidence of young pageant stars, and the trust of regional
+                        corporate brands.</p>
+                </div>
+                <div class="image-col scroll-animate slide-in-right">
+                    <img src="https://images.unsplash.com/photo-1542361345-89e58247f2d5?auto=format&fit=crop&w=800&q=80"
+                        alt="Team Work"
+                        style="width: 100%; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Presence / PR Section -->
+    <section class="section media-pr-section bg-white">
+        <div class="container text-center">
+            <div class="mb-5 scroll-animate">
+                <div class="tag">Media Presence</div>
+                <h2 class="section-title">Creative Group in <span class="highlight">Headline News</span></h2>
+            </div>
+
+            <div class="media-grid scroll-animate slide-in-bottom">
+                <div class="media-card" onclick="openLightbox('assets/media/lokmat-1.jpg')">
+                    <div class="media-img-wrapper">
+                        <img src="assets/media/lokmat-1.jpg" alt="Lokmat News Article 1">
+                        <div class="media-overlay"><i class="fas fa-search-plus"></i><span>View Article</span></div>
+                    </div>
+                </div>
+                <div class="media-card" onclick="openLightbox('assets/media/lokmat-1.jpg')">
+                    <div class="media-img-wrapper">
+                        <img src="assets/media/lokmat-1.jpg" alt="Lokmat News Article 2">
+                        <div class="media-overlay"><i class="fas fa-search-plus"></i><span>View Article</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Gallery Section -->
+    <section id="full-gallery" class="section gallery-section bg-light">
+        <div class="container">
+            <div class="text-center mb-5 scroll-animate">
+                <div class="tag">Full Gallery</div>
+                <h2 class="section-title">Captured <span class="highlight">Moments</span></h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item item-wide">
+                    <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=80"
+                        alt="Art Session">
+                    <div class="overlay">
+                        <h4>Creative Arts</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80"
+                        alt="Events">
+                    <div class="overlay">
+                        <h4>Celebrations</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1540324155974-7523202daa3f?auto=format&fit=crop&w=600&q=80"
+                        alt="Runway">
+                    <div class="overlay">
+                        <h4>Pageant Lights</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=600&q=80"
+                        alt="Mall Decor">
+                    <div class="overlay">
+                        <h4>Mall Setup</h4>
+                    </div>
+                </div>
+                <div class="gallery-item item-tall">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80"
+                        alt="Adventures">
+                    <div class="overlay">
+                        <h4>Summer Adventures</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1522858102434-c7ad1ce10a1d?auto=format&fit=crop&w=600&q=80"
+                        alt="Dance">
+                    <div class="overlay">
+                        <h4>Dance Sessions</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal for News -->
+    <div id="news-lightbox" class="lightbox-overlay" onclick="closeLightbox(event)">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox(event)">&times;</span>
+            <img id="lightbox-img" src="" alt="News Clipping Full View">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <a href="index.html" class="logo mb-3 d-inline-block">
+                <span class="logo-text">Creative<span class="highlight">Group</span></span>
+            </a>
+            <p class="footer-text">Bringing life to events in Chhatrapati Sambhajinagar.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="summer-camp.html">Summer Camp</a>
+                <a href="pageants.html">Pageants</a>
+                <a href="mall-decor.html">Décor</a>
+            </div>
+            <div class="copyright">
+                &copy; Since 1997 Creative Group Chhatrapati Sambhajinagar. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script async src="https://tally.so/widgets/embed.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
